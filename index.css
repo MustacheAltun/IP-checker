@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+}
+pre{
+    margin: 0;
+    padding: 0;
+}
+
+.information{
+    background: white;
+    color: black;
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    /*max-width: 300px;*/
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
