@@ -32,11 +32,11 @@ echo "currency: ".json_decode($loc, true)["currency"]."<br/>";
 echo "currency name: ".json_decode($loc, true)["currency_name"]."<br/>";
 echo "languages: ".json_decode($loc, true)["languages"]."<br/>";
 echo "asn: ".json_decode($loc, true)["asn"]."<br/>";
-echo "org: ".json_decode($loc, true)["org"];
-
+echo "org: ".json_decode($loc, true)["org"]."<br/>";
+Echo "<a href=search.php>search your address</a>";
 echo "</div>";
 ?>
 
-<iframe height="500px" width="750px" src="https://maps.google.com/maps?q=<?php echo $latitude;?>, <?php echo $longtitude;?>&output=embed" ></iframe>
+<br/><iframe src="https://maps.google.com/maps?q=<?php echo $latitude;?>, <?php echo $longtitude;?>&output=embed" frameborder="0"></iframe>
 
 </html>
