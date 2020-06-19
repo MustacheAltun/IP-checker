@@ -12,13 +12,15 @@ error_reporting(0);
 echo "<div class='information'>";
 ?>
 <form action="search.php" method="post">
-    address: <input type="text" name="address"><br>
+    location: <input type="text" name="address">
 
     <input type="submit" value="search address" name="submit_address">
 </form>
 <form action="search.php" method="post">
-    latitude: <input type="text" name="latitude"><br>
-    longtitude:<input type="text" name="longtitude"><br>
+    latitude:  <input type="text" name="latitude">
+
+    longtitude:  <input type="text" name="longtitude">
+
     <input type="submit" value="search coordinates" name="submit_coordinates">
 </form>
 <?php
